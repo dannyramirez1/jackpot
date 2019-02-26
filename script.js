@@ -40,7 +40,7 @@ function nextImage3(el){
 	} else if ( el.src.match("images/cherry_slot.PNG")){
 		 el.src = "images/seven_slot.PNG";
 	} else if (el.src.match("images/seven_slot.PNG")){
-		 el.src = "images/watermelon_slot.PNG";
+		 el.src = "images/watermelon_slot.png";
 	} else if (el.src.match("images/watermelon_slot.png")){
 		 el.src = "images/orange_slot.PNG";
 	} else {
@@ -49,7 +49,7 @@ function nextImage3(el){
 }
 
 function checkSlot(el){
-	if (a.src.match("cherry_slot") && b.src.match("cherry_slot") && c.src.match("cherry_slot")){
+	if (a.src.match("cherry_slot.PNG") && b.src.match("cherry_slot.PNG") && c.src.match("cherry_slot.PNG")){
 		mySound.play();
 		a.classList.add("opaque");
 		b.classList.add("opaque");
